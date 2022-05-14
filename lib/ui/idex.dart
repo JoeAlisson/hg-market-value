@@ -68,7 +68,7 @@ class _HGIdexState extends State<HGIdex> {
                     Icon(_change == 0 ? Icons.ac_unit : _change < 0 ? Icons.arrow_downward_rounded : Icons.arrow_upward_rounded,
                         color: _change == 0 ? Colors.grey : _change > 0 ? Colors.green : Colors.red,
                         size: 20),
-                    Text("$_change",
+                    Text("$_change%",
                       style: TextStyle(
                           color: _change == 0 ? Colors.grey : _change > 0 ? Colors.green : Colors.red,
                           fontWeight: FontWeight.bold,
